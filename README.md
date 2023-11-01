@@ -25,10 +25,18 @@ This project is just an example of the implementation of a sentiment classifier 
    ```shell
    pip install -r requirements.txt
    ```
-4. Create OpenAI API Key and add it to your .env file:
+4. Create OpenAI API Key here:
    [openai](https://platform.openai.com/)
+
+5. Setup api key
+
+   ```shell
+   cp .env .env.example
+   ```
+
+Replace the placeholder in .env with your OPENAI_API_KEY
    
-5. Run the application:
+6. Run the application:
 
    ```shell
    streamlit run app.py
